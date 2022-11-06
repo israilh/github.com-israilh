@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;  
+}
+/*topbar part star here=====================================================================*/
+
+.topbar-section{
+    background: #eeeeee;
+    padding: 13px 0 13px 0;
+    
+}
+.topbar-section .top-part .top-part-one,
+.topbar-section .top-part .top-part-two,
+.topbar-section .top-part .top-part-three{
+    width: 33%;
+
+}
+.topbar-section .top-part .top-part-two{
+    text-align: center;
+}
+
+.topbar-section .top-part{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topbar-section .top-part .top-part-three .topbar-icon ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    list-style: none;
+    text-decoration: none;
+}
+.topbar-section .top-part .top-part-one p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #000;
+}
+.topbar-section .top-part .top-part-two p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #000;
+
+}
+.topbar-section .top-part .top-part-three .topbar-icon ul li{
+    margin-left:18px ;
+    
+}
+.topbar-section .top-part .top-part-three .topbar-icon ul li a i{
+  color: #000;
+}
+.top-part-two span {
+    margin: 0 5px 0 0;
+}
+
+/*header part star here=====================================================================*/
+
+.header-section{
+    padding: 15px 0 15px 0;
+}
+
+.header-section .header-part{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-section .header-part .header-part-one,
+.header-section .header-part .header-part-two,
+.header-section .header-part .header-part-three{
+    width: 33%;
+
+}
+.header-section .header-part .header-part-one h5{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #000;
+}
+.header-section .header-part .header-part-one p{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #000;
+}
+.header-section .header-part-two{
+    text-align: center;
+}
+
+.header-section .header-part .header-part-three{
+   text-align: right;
+}
+.header-section .header-part .header-part-three h5 a{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: red;
+    text-decoration: none;
+}
+.header-section .header-part .header-part-three p a{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color:#000;
+    text-decoration: none;
+}
+/*-------nav secton start here--===========================================================----*/
+
+.nav-section{
+    width: 100%;
+    background:#000;
+}
+.nav-section ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;  
+}
+
+.nav-section .nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color:#fff;
+    font-family: 'Roboto Slab', serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 24px 30px;
+    display: inline-block;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+
+.nav-section .nav ul li a:hover{
+    background-color: red;
+    color: #fff;
+}
+.nav-section .nav ul .active{
+    background: red;
+}
+
+/*----------banner-section start here=======================================================-*/
+.banner-section{
+    background-image: url(../img/banner11.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%; 
+    padding: 245px 0;
+}
+
+.banner-section .legal-advance-title{
+   text-align: center;
+   max-width: 850px;
+   background: #000;
+   width: 100%;
+   margin: 0 auto;
+   opacity: 0.7;
+
+}
+
+.banner-section .legal-advance-title h2{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding: 30px 0 20px 0;
+
+}
+
+.banner-section .legal-advance-title p{
+    font-size: 32px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color:#fff;
+    padding-bottom: 30px;
+    
+}
+
+/*-----------in-house section start here---=====================================================-----*/
+.in-house-section{
+    padding: 80px 0 80px 0;
+}
+.in-house-section .in-house-parents{
+    display: flex;
+    align-items: center;
+}
+.in-house-section .in-house-parents .in-hous-content{
+    width: 60%;
+
+}
+.in-house-section .in-house-parents .img-content{
+    width: 40%;
+
+}
+
+.in-house-section .in-house-parents .img-content img{
+    width: 100%;
+}
+
+.in-house-section .in-house-parents .in-hous-content .in-house-title h3{
+    padding-bottom: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 32px;
+    position: relative;
+}
+.in-house-section .in-house-parents .in-hous-content .in-house-title h3::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    bottom: 30px;
+    background: red;
+    left: 0;
+
+}
+
+.in-house-section .in-house-parents .in-hous-content .in-house-sub-title p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 38px;
+
+}
+.in-house-section .in-house-parents .in-hous-content .in-house-sub-title{
+    position: relative;
+}
+.in-house-section .in-house-parents .in-hous-content .in-house-sub-title::after{
+    content: "";
+    position: absolute;
+    width: 415px;
+    height: 415px;
+    background-image: url(../img/img.png);
+    top: -102px;
+    left: 48%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+.in-house-section .in-house-parents .in-hous-content .in-house-sub-title .btn{
+    padding: 30px 0 0 0;
+    
+}
+.in-house-section .in-house-parents .in-hous-content .in-house-sub-title .btn button{
+    padding: 15px 25px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid #000;
+    cursor: pointer;
+    background: #fff;
+    transition: 0.3s;
+}
+.in-house-section .in-house-parents .in-hous-content .in-house-sub-title .btn button:hover{
+    background: red;
+    border: 2px solid red;
+    color: #fff;
+}
+
+/*-----------Aria section start here-----===================================================---*/
+.aria-section{
+   padding: 70px 0 40px 0;
+    background: #eeeeee;
+}
+.aria-section .aria-title{
+    width: 100%;
+   align-items: center;
+  
+}
+.aria-section .aria-title h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.aria-section .aria-title h1::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    bottom: 22px;
+    left: 47%;
+    background: red;
+}
+.aria-section .area-sub-title p{
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   color: #000;
+   font-size: 16px;
+   line-height: 22px;
+   font-size: 16px;
+   line-height: 24px;
+    
+}
+.aria-section .box {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(217, 212, 212);
+    text-align: center;
+   margin: 42px 0 40px 0;
+    
+}
+
+.aria-section .box .box-content{
+   padding: 30px 25px;
+}
+.aria-section .box .box-content .icon-box{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid rgb(252, 73, 13);
+    border-style: ridge;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+   border-style: ridge;
+
+}
+.aria-section .box .box-content .icon-box .ioc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.aria-section .box .box-content h3{
+    padding: 15px 0 20px 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-family:'Roboto Slab', serif ;
+    font-weight: 700;
+
+}
+.aria-section .box .box-content p{
+     font-size: 16px;
+     line-height: 24px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 25px;
+}
+.aria-section .box .box-content .btn{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    border: 1px solid black;
+    background: #fff;
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.aria-section .box .box-content .btn:hover{
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+}
+
+.aria-section .aria-section-part-one,
+.aria-section .aria-section-part-two,
+.aria-section .aria-section-part-three{
+    width: 31%;
+}
+
+.area-box-section{
+    display: flex;
+    column-gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*legal-explantetion part star here----------------------------------------------*/
+
+.legal-explantetion .legal-explantetion-title h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.legal-explantetion .legal-explantetion-title h1::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    bottom: -22px;
+    left: 47%;
+    background: red;
+} 
+
+.legal-explantetion .legal-explantetion-title p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 50px 45px;
+    max-width: 678px;
+    margin: 0 auto;
+}
+
+.legal-explantetion{
+    margin: 70px 0 ;
+}
+
+.legal-explantetion .video-one,
+.legal-explantetion .video-two,
+.legal-explantetion .video-three,
+.legal-explantetion .video-fore{
+    width: 23.5%;   
+    position: relative; 
+}
+
+.legal-explantetion .video-content-part{
+    display: flex;
+    column-gap: 2%;
+   
+}
+.legal-explantetion .video-content-part .video-one .play-btn,
+.legal-explantetion .video-content-part .video-two .play-btn,
+.legal-explantetion .video-content-part .video-three .play-btn,
+.legal-explantetion .video-content-part .video-fore .play-btn{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.legal-explantetion .video-fore img,
+.legal-explantetion .video-one img,
+.legal-explantetion .video-two img,
+.legal-explantetion .video-three img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+.legal-explantetion .video-fore img,
+.legal-explantetion .video-one img,
+.legal-explantetion .video-two img,
+.legal-explantetion .video-three img::after{
+    
+   
+}
+
+/*===========contact-section==========================================================*/
+.contact-section{
+    background-image: url(../img/bg8.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%; 
+    padding: 110px 0;
+    position: relative;
+}
+
+.contact-section .contact-section-part .title{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact-section .contact-section-part .title h1{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color:#fff;
+
+}
+
+.contact-section .contact-section-part .title p{
+    font-family:'Roboto Slab', serif;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 20px 0 38px 0;
+    color: #fff;
+    
+}
+
+.contact-section .contact-section-part .title button{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Roboto Slab", serif;
+    border: 1px solid #fff;
+    background: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.contact-section .contact-section-part .title button:hover{
+    background: red;
+    border:  1px solid red;
+    color: rgb(8, 8, 8);
+}
+
+/*-----blog part start here---------------------------------------------------------------*/
+.blog-section{
+    padding: 0 0 120px 0;
+}
+
+.blog-section .blog{
+    display: flex;
+    column-gap: 3%;
+
+}
+
+.blog-section .blog-part-one{
+    width: 48.5%;
+}
+
+.blog-section .blog-part-two{
+    width: 48.5%;
+    margin-left: 2%;
+
+}
+
+.blog-section .blog .blog-part-one .blog-alex{
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+
+.blog-section .blog .blog-part-one .blog-alex p{
+    font-size: 16px;
+    line-height: 22px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 40px 0 0;
+    
+}
+
+.blog-section .blog .blog-part-one .blog-alex span {
+    padding: 0 5px 0 0;
+    color: #000;
+}
+
+.blog-section .blog .blog-part-one .blog-alex a {
+    text-decoration: none;
+}
+.blog-alex .red{
+    color: red;
+    text-decoration: underline;
+}
+
+.blog-section h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    padding: 70px;
+    position: relative;
+}
+
+.blog-section h1::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    bottom: 50px;
+    left: 47%;
+    background: red;
+}
+.blog-section .blog-part-one h4{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    padding: 10px 0 15px 0;
+}
+
+.blog-section .blog-part-one p{
+  
+  font-size: 16px;
+  line-height: 22px;
+  font-family:  'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+  padding-bottom: 25px;
+}
+
+.blog-section .blog-part-one .img-blog img{
+    width: 100%;
+    height: 100%;  
+}
+
+
+.blog-section .blog-part-two img{
+    width: 100%;
+}
+
+.blog-section .blog-part-one button{
+    padding: 15px 25px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid #000;
+    cursor: pointer;
+    background: #fff;
+    transition: 0.3s;  
+}
+
+.blog-section .blog-part-one button:hover{
+    background: red;
+    border: 1px solid red;
+    color: #fff;
+}
+.img-blog{
+    
+    position: relative;
+}
+
+.img-blog .date h2{
+    color: #fff;
+    bottom: 4px;
+    left: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    background: #000;
+    position: absolute;
+    padding: 20px;
+}
+
+/*-----buttom part start here---------------------------------------------*/
+
+.bottom-section{
+   background: rgb(17, 17, 17);
+  padding: 60px 0 60px 0;
+}
+
+.bottom-section .bottom-section-part{
+    display: flex;
+    
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-one,
+.bottom-section .bottom-section-part .buttom-se-p-two,
+.bottom-section .bottom-section-part .buttom-se-p-three{
+    width: 33%;
+}
+.bottom-section .bottom-section-part .buttom-se-p-one h2{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-one p{
+    font-family:  'Open Sans', sans-serif;
+    padding: 0 50px 0 0;
+    color: rgb(146, 141, 141);
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.bottom-section .bottom-section-part .buttom-se-p-one .icon-part ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.bottom-section .bottom-section-part .buttom-se-p-one .icon-part ul li i{
+    margin-right: 10px;
+    color: #fff;
+    border: 1px solid rgb(146, 141, 141);
+    padding: 15px;
+    transition: 0.3s;
+}
+.bottom-section .bottom-section-part .buttom-se-p-one .icon-part ul li i:hover{
+    background: #fff;
+    color: red;
+    border: 1px solid #fff;
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-two h2{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-two ul{
+    list-style: none;  
+}
+.bottom-section .bottom-section-part .buttom-se-p-two ul li{
+    padding-bottom: 20px;
+
+}
+.bottom-section .bottom-section-part .buttom-se-p-two ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family:  'Open Sans', sans-serif;
+    color: rgb(146, 141, 141);
+    position: relative;  
+}
+.bottom-section .bottom-section-part .buttom-se-p-two ul li a::after {
+    content: "";
+    position: absolute;
+    width: 340px;
+    height: 2px;
+    background: #000;
+    background-repeat: space;
+    background-size: 5px;
+    left: 0;
+    bottom: -11px;
+    background-image: radial-gradient( #fff, transparent);
+}
+.bottom-section .bottom-section-part .buttom-se-p-two ul li a:hover{
+    color:rgb(255, 255, 255);
+}
+.bottom-section .bottom-section-part .buttom-se-p-three h2{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-three .locatin p{
+    font-family:  'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    color: rgb(146, 141, 141);
+    padding-bottom: 25px;
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-three .phone p a{
+    font-size: 16px;
+    line-height: 24px;
+    font-family:  'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(146, 141, 141);
+    padding: 25px 0;
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-three .mail p{
+    padding-top: 25px;
+    
+}
+
+.bottom-section .bottom-section-part .buttom-se-p-three .mail p a{
+   text-decoration: none;
+   font-size: 16px;
+    line-height: 22px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(146, 141, 141); 
+}
+.bottom-section .bottom-section-part .buttom-se-p-three .locatin span,
+.bottom-section .bottom-section-part .buttom-se-p-three .phone  span,
+.bottom-section .bottom-section-part .buttom-se-p-three .mail span{
+    margin-right: 5px;
+}
+.end{
+    width: 100%;
+    background: #000;
+}
+.end p{
+    text-align: center;
+    padding: 20px 0 ;
+    font-size: 16px;
+    line-height: 22px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.7;
+}
+
+
+
